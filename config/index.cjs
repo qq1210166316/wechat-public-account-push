@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2000', date: '08-19',
+          type: '*生日', name: '小李', year: '2000', date: '08-19',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '阿龙', year: '2001', date: '08-12',
+          type: '生日', name: '小龙', year: '2001', date: '08-12',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '01-13',
@@ -43,8 +43,8 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2023-01-30' },
-        // 在一起的日子
-        { keyword: 'know_day', date: '2023-01-30' },
+        // 相识日子
+        { keyword: 'know_day', date: '2023-01-13' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
